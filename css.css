@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  text-align: center; /* 👈 centraliza o texto */
+}
+
+nav a {
+  color: blueviolet;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 5px;
+}
+.bloco{ 
+    background-color: blue;
+    color:aquamarine;
+    border: 1px;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-top: 2px solid #d8d;
+
+
+
+}
+#galeria{  /*#signfica id, onde coloca-se por ex.:id="galeria só pode ter 1 com mesmo 
+  nome por página*/
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px; /*espaço entre elementos dentro do id*/
+  justify-content: flex-start; /*reforçando que ele vai estar "flexivel"*/
+  padding: 20px;
+}
+.foto{
+ background:#fff;
+ padding: 12px 12px 20px;
+ border: 1px solid #000;
+ box-shadow: 0 4px 10px #000000;
+ text-align: center;
+ border-radius: 4px;
+
+
+}
+.foto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover; /*efeito de sobrepor*/
+  display: block;
+}
